@@ -619,7 +619,7 @@
             var policyNo = parseInt(localStorage.getItem("policyNo"), 10);
 
             if (parseInt(weight, 10) < 100 && parseInt(suminsured, 10) < 1000000) {
-                window.location.href = "https://bsib.herokuapp.com/Success.html";
+                window.location.href = "https://kgisl.herokuapp.com/Success.html";
             }
             else if (parseInt(weight, 10) >= 100 && parseInt(suminsured, 10) < 1000000 && qustMaster[4].isChecked === 'NO' && qustMaster[5].isChecked === 'NO' && qustMaster[6].isChecked === 'NO') {
                             $("#porposalnumber").text("R002");
@@ -661,19 +661,19 @@
           //  }
 
             if (parseInt(weight, 10) >= 100 && parseInt(suminsured, 10) < 1000000 && qustMaster[4].isChecked === 'NO' && qustMaster[5].isChecked === 'NO' && qustMaster[6].isChecked === 'NO') {
-                window.location.href = "https://bsib.herokuapp.com/admin-risk-one.html";
+                window.location.href = "https://kgisl.herokuapp.com/admin-risk-one.html";
             }
             else if (parseInt(weight, 10) >= 100 && parseInt(suminsured, 10) < 1000000 && (qustMaster[4].isChecked === 'YES' || qustMaster[5].isChecked === 'YES' || qustMaster[6].isChecked === 'YES')) {
-                window.location.href = "https://bsib.herokuapp.com/admin-risk-two.html";
+                window.location.href = "https://kgisl.herokuapp.com/admin-risk-two.html";
             }
             else if (parseInt(suminsured, 10) >= 1000000 && qustMaster[0].isChecked === 'NO' && qustMaster[1].isChecked === 'NO' && qustMaster[2].isChecked === 'NO' && qustMaster[3].isChecked === 'NO' && qustMaster[4].isChecked === 'NO' && qustMaster[5].isChecked === 'NO' && qustMaster[6].isChecked === 'NO' && qustMaster[7].isChecked === 'NO' && qustMaster[8].isChecked === 'NO' && qustMaster[9].isChecked === 'NO' && qustMaster[10].isChecked === 'NO' && qustMaster[11].isChecked === 'NO' && qustMaster[12].isChecked === 'NO' && qustMaster[13].isChecked === 'NO' && qustMaster[14].isChecked === 'NO' && qustMaster[15].isChecked === 'NO' && qustMaster[16].isChecked === 'NO' && qustMaster[17].isChecked === 'NO' && qustMaster[18].isChecked === 'NO') {
-                window.location.href = "https://bsib.herokuapp.com/admin-risk-three.html";
+                window.location.href = "https://kgisl.herokuapp.com/admin-risk-three.html";
             }
             else if (parseInt(suminsured, 10) >= 1000000 && qustMaster[0].isChecked === 'YES' || qustMaster[1].isChecked === 'YES' || qustMaster[2].isChecked === 'YES' || qustMaster[3].isChecked === 'YES' || qustMaster[4].isChecked === 'YES' || qustMaster[5].isChecked === 'YES' || qustMaster[6].isChecked === 'YES' || qustMaster[7].isChecked === 'YES' || qustMaster[8].isChecked === 'YES' || qustMaster[9].isChecked === 'YES' || qustMaster[10].isChecked === 'YES' || qustMaster[11].isChecked === 'YES' || qustMaster[12].isChecked === 'YES' || qustMaster[13].isChecked === 'YES' || qustMaster[14].isChecked === 'YES' || qustMaster[15].isChecked === 'YES' || qustMaster[16].isChecked === 'YES' || qustMaster[17].isChecked === 'YES' || qustMaster[18].isChecked === 'YES') {
-                window.location.href = "https://bsib.herokuapp.com/admin-risk-four.html";
+                window.location.href = "https://kgisl.herokuapp.com/admin-risk-four.html";
             }
             else {
-                 window.location.href = "https://bsib.herokuapp.com/Failure.html";
+                 window.location.href = "https://kgisl.herokuapp.com/Failure.html";
             }
 
            });
